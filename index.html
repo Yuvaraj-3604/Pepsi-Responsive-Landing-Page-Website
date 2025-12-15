@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Pepsi Responsive Landing Page Website</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<section class="sec">
+    	<header>
+    		<a href="#"><img src="images/pepsi logo.png" alt="Pepsi Logo" title="Pepsi Logo" class="logo"></a>
+    		<div class="toggleMenu" onclick="menuToggle();"></div>
+		    <ul class="navigation">
+		    	<li><a href="#">Home</a></li>
+		    	<li><a href="#">Products</a></li>
+		    	<li><a href="#">What's New</a></li>
+		    	<li><a href="#">Newsletter</a></li>
+		    	<li><a href="#">Contact</a></li>
+		    </ul>
+    	</header>
+    	<div class="content">
+    		<div class="textBox">
+    			<h2>That's What<br><span>I like</span></h2>
+    			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, nisi ducimus quos harum nostrum, sit voluptate temporibus aut eos quo commodi.</p>
+    			<a href="#">View All Products</a>
+    		</div>
+    		<div class="imgBox">
+    			<img src="images/1.png" alt="" class="pepsi">
+    		</div>
+    	</div>
+    	<ul class="thumb">
+    		<li><img src="images/2.png"onclick="imgSlider('images/2.png'); changeBgColor('#0062be')"alt="Pepsi Blue"></li>
+    		<li><img src="images/3.png"onclick="imgSlider('images/3.png'); changeBgColor('#e60c2c')"alt="Pepsi Red"></li>
+    		<li><img src="images/4.png"onclick="imgSlider('images/4.png'); changeBgColor('#1e1e1e')"alt="Pepsi Black"></li>
+    	</ul>
+    	<ul class="sci">
+    		<li><a href="#"><img src="images/fb.png" alt=""></a></li>
+    		<li><a href="#"><img src="images/spotify.png" alt=""></a></li>
+    		<li><a href="#"><img src="images/yt.png" alt=""></a></li>
+    	</ul>
+    </section>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
